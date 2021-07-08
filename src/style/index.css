@@ -1,0 +1,40 @@
+.content {
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.headshot {
+  height: 450px;
+  width: 450px;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-right: 30px;
+  margin-right: 35px;
+  float: left;
+}
+
+h2 {
+  padding-top: 50px;
+  font-size: 75px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: purple;
+  margin-left: 125px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-left: 200px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.glyph {
+  margin-right: 20px;
+}

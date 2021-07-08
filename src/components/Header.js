@@ -22,7 +22,7 @@ export default function Header() {
                             <li class="nav-item">
                                 <a class="nav-link"
                                     href="https://drive.google.com/file/d/1gr6oxmSqLcVBqwRaRyeoPX3OfdGidDPD/view?usp=sharing"
-                                    target="_blank">Resume</a>
+                                    target="_blank" rel="noreferrer">Resume</a>
                             </li>
                         </ul>
                     </div>
