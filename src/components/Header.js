@@ -12,13 +12,13 @@ export default function Header() {
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <Link to="/"> About Me</Link>
+                                <Link to="/20-react-portfolio"> About Me</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to="/work"> Work</Link>
+                                <Link to="/20-react-portfolio/work"> Work</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to="/contact"> Contact Me </Link>
+                                <Link to="/20-react-portfolio/contact"> Contact Me </Link>
                             </li>
                             <li class="nav-item">
                                 <a href="https://drive.google.com/file/d/1gr6oxmSqLcVBqwRaRyeoPX3OfdGidDPD/view?usp=sharing" target="_blank" rel="noreferrer">Resume </a>

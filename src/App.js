@@ -11,13 +11,13 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/20-react-portfolio">
           <About />
         </Route>
-        <Route exact path="/work">
+        <Route exact path="/20-react-portfolio/work">
           <Projects />
         </Route>
-        <Route exact path="/contact">
+        <Route exact path="/20-react-portfolio/contact">
           <Contact />
         </Route>
       </Switch>
