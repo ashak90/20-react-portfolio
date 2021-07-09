@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Link } from "react-router-dom";
 
 export default function Header() {
 
@@ -11,18 +12,16 @@ export default function Header() {
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
+                                <Link to="/"> About Me</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#myWork">Work</a>
+                                <Link to="/work"> Work</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
+                                <Link to="/contact"> Contact Me </Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="https://drive.google.com/file/d/1gr6oxmSqLcVBqwRaRyeoPX3OfdGidDPD/view?usp=sharing"
-                                    target="_blank" rel="noreferrer">Resume</a>
+                                <a href="https://drive.google.com/file/d/1gr6oxmSqLcVBqwRaRyeoPX3OfdGidDPD/view?usp=sharing" target="_blank" rel="noreferrer">Resume </a>
                             </li>
                         </ul>
                     </div>

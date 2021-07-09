@@ -3,15 +3,27 @@ import About from "./components/Aboutme";
 import Projects from "./components/Projects"
 import Contact from "./components/Contact";
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
-    <body>
+    <Router>
       <Header />
-      <About />
-      <Projects />
-      <Contact/>
-    </body>
+      <Switch>
+        <Route exact path="/">
+          <About />
+        </Route>
+        <Route exact path="/work">
+          <Projects />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+
+    </Router >
+
 
   );
 }
